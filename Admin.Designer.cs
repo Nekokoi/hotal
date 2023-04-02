@@ -109,6 +109,7 @@
             // 
             // button22
             // 
+            this.button22.Cursor = System.Windows.Forms.Cursors.Default;
             this.button22.Image = global::HOH.Properties.Resources.login;
             this.button22.Location = new System.Drawing.Point(67, 89);
             this.button22.Name = "button22";
@@ -122,7 +123,7 @@
             this.AcceptButton = this.button22;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1460, 787);
+            this.ClientSize = new System.Drawing.Size(1378, 780);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button22);
@@ -141,8 +142,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -151,5 +150,6 @@
         private System.Windows.Forms.TextBox IDA;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button22;
     }
 }
